@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Заголовок</title>
+    <link rel="stylesheet" href="CSS\style.css">
+    <script src="https://maps.api.2gis.ru/2.0/loader.js?pkg=full"> </script>
+    <script type="text/javascript">
+            var map;
+            DG.then(function () {
+                map = DG.map('map', {
+                    center: [53.343319, 83.752355],
+                    zoom: 16
+                });
+                DG.marker([53.343319, 83.752355]).addTo(map).bindPopup('<a href="https://2gis.ru/barnaul/search/Beauty%20STUDIO/firm/70000001042684481?floor=2&m=83.752363%2C53.343311%2F18" id="mapp">Beauty STUDIO</a> <br> ​ТРЦ GALAXY<br> Строителей проспект, 117 <br> 1 этаж <br> Ежедневно <br> с 08:00 до 22:00 <br> Расчёт по картам  Наличный расчёт');
+            });
+    </script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="Img">
+            <img src="Pictures\picture1.JPG">
+        </div>
+
+        <div class="header">
+            <hr color="#ff4397" size="5">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="about.html">О нас</a></li>
+                <li><a href="servise.html">Услуги</a></li>
+                <li><a href="masters.html">Наши мастера</a></li>
+                <li><a href="prise.html">Прайс</a></li>
+                <li><a href="works.html">Наши работы</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+            <hr color="#ff4397" size="5">
+
+
+        </div>
+
+        <div class="content">
+            <div id="portfolio">
+                <a href="">Портфолио</a>
+            </div>
+            <div id="map"></div>
+            <div id="contacts">
+                <p><b>Адрес:</b></br>
+                    656031, г. Барнаул, Строителей проспект, 117</p>
+                <p><b>Телефон:</b><br>
+                    8-903-949-04-19</p>
+                <p><b> Часы работы:</b><br>
+                    Ежедневно с 08:00 до 22:00</p>
+
+            </div>
+
+        </div>
+
+    </div>
+    <div class="footer">
+        <hr color="#ff4397" size="5">
+        <div class="footer-column">
+           <p class="left"><b>Адрес:</b> г. Барнаул, <br>
+            ​Строителей проспект, 117к2</p>
+        </div>
+        <div class="footer-column" >
+            <p class="center"><a href="https://www.instagram.com/beauty.s.brn/"><b>Мы в Инстаграм</b></a> </p>
+        </div>
+        <div class="footer-column" >
+            <p class="right"><b>Телефон:</b><br>
+            ​8-903-949-04-19</p>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
