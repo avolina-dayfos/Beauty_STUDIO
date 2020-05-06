@@ -33,7 +33,7 @@ body{
     margin: 3px 0.8%;
     transform: skewX(-20deg);
     text-align: center;
-    height: 70px;
+    /*height: 70px;*/
     vertical-align: middle;
 }
 .header a{
@@ -41,14 +41,12 @@ body{
     color: #ff4397;
     display: block;
     text-decoration: none;
-    padding: 15px 17px;
+    padding: 15px 15px;
     transform: skewX(20deg);
-
 }
+
 li:hover{
     background: #ffc0cb70;
-}
-a:hover{
     color: #000000;
 }
 
@@ -56,9 +54,11 @@ a:hover{
     width: 32%;
     margin: 0.5%;
 }
+
 .content_servise a{
     color: #151515;
 }
+
 .content_servise p{
     display: inline-block;
     /*width: 15%;*/
