@@ -166,17 +166,26 @@ li:hover{
 /*    width: 80%;*/
 /*    margin: 0 auto;*/
 /*}*/
-.content_prise_table{
-    border: solid 1px black;
-}
-.content_prise{
-    margin: 0 auto;
-}
-.content_prise_table td{
-    padding: 2px;
-    width: 80%;
 
+.content_prise table{
+    margin: 0 auto;
+    border: solid 1px black;
+    width: 800px;
 }
+
+.prise-servise-group {
+    background: darkgrey;
+}
+
+.prise-servise-data:nth-child(odd){
+    background: #ff4397;
+}
+
+/*.content_prise_table td{*/
+/*    padding: 2px;*/
+/*    width: 80%;*/
+/*}*/
+
 .content_prise_table_cost{
     /*padding-left: 15px;*/
     text-align: center;
